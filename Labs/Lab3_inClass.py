@@ -1,6 +1,6 @@
 #Noah Simons
-#Lab2
-#1/20/2025
+#Lab3
+#1/21/2025
 #Variables used:
 #file: the filehandling.csv file
 #type_: the type of device
@@ -10,12 +10,14 @@
 #noHDD: the number of hard disk drives on the device
 #os: the os value store in the file
 #yr: the year value stored in the file
-
+#numDesktopOld: the number of desktop computers from 2016 or before
+#numLaptopOld: the number of laptop computers from 2016 or before
 
 import csv
 
 #Header
 print(f"{'TYPE':10}    {'BRAND':10}   {'CPU':5} {'RAM':3} {'FIRST DISK':10}  {'NO HDD':5}   {'2ND DISK':10}   {'OS':4}  {'YR'}")
+
 
 #Main Process
 with open("Text File/filehandling.csv") as csvfile:
@@ -30,7 +32,8 @@ with open("Text File/filehandling.csv") as csvfile:
         firstDisk = record[4]
         noHDD = int (record[5])
         os = record[6]
-        yr = record[7]
+        yr = int (record[7])
+
         #translates the letters to the device's full name
         if (type_ == "D"):
             type_ = "Desktop"
@@ -50,6 +53,11 @@ with open("Text File/filehandling.csv") as csvfile:
             secondDisk = record[6]
         else:
             secondDisk = "     "
-
+        if (type_ == "Desktop" and yr <= 16):
+            numDesktopOld =+ 1
+        elif (type_ == "Laptop" and yr <= 16):
+            numLaptopOld =+ 1
         #prints the final result
-        print(f"{type_:10}    {brand:10}   {cpu:5} {ram:3}  {firstDisk:10}  {noHDD:5}   {secondDisk:10}   {os:4}  {yr}")
+        print(f"{type_:10}    {brand:10}   {cpu:5}  {ram:3}  {firstDisk:10}  {noHDD:5}   {secondDisk:10}   {os:4}  {yr}")
+print("to replace ", numDesktopOld, "Desktops, it will cost $", numDesktopOld * 2000)
+print("to replace ", numLaptopOld, "Laptops, it will cost $", numLaptopOld * 1500)
