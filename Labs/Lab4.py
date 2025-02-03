@@ -20,6 +20,7 @@
 import random
 import csv
 
+#starts number of employees in each department at zero
 numRes = 0
 numMar = 0
 numHu = 0
@@ -27,7 +28,7 @@ numAcc = 0
 numSal = 0
 numAud = 0
 
-
+#defines the fields as empty lists
 fName = []
 lName = []
 age = []
@@ -37,21 +38,25 @@ email = []
 dept = []
 ext = []
 
+#Header
 print(f"{'FIRST':8} {'LAST':10} {'EMAIL':30} {'DEPARTMENT':23} {'EXT':3}")
 
+#opens got_emails.csv
 with open("Text_File/got_emails.csv") as csvfile:
     file = csv.reader(csvfile)
-    
+    #adds the different records to the empty lists
     for rec in file:
         fName.append(rec[0])
         lName.append(rec[1])
         age.append(rec[2])
         sName.append(rec[3])
         house.append(rec[4])
-    
+
+    #compiles the screen name to an email
     for index in range(0, len(sName)):
         email.append(sName[index] + "@westeros.net")
 
+        #assigns the employee department based on house and logs the number in each department
         if (house[index] == "House Stark"):
             dept.append("Research & Development")
             numRes = numRes + 1
@@ -70,7 +75,8 @@ with open("Text_File/got_emails.csv") as csvfile:
         else:
             dept.append("Auditing")
             numAud = numAud + 1
-        
+
+        #assigns the employee a random extension in a range based on their house
         if (house[index] == "House Stark"):
             ext.append(random.randint(100, 199))
         elif (house[index] == "House Targaryen"):
@@ -84,9 +90,11 @@ with open("Text_File/got_emails.csv") as csvfile:
         else:
             ext.append(random.randint(600, 699))
 
+    #prints the data from got_emails.csv
     for i in range(0, len(fName)):
         print(f"{fName[i]:8}   {lName[i]:10}  {email[i]:30}  {dept[i]:23}   {ext[i]:3}")
-    
+
+    #prints the data to westeros.csv file and closes the file.
     file = open("Text_File/westeros.csv", "w")
 
     for i in range(0, len(fName)):
@@ -95,7 +103,8 @@ with open("Text_File/got_emails.csv") as csvfile:
 
     print()
     print("File closed.")
-
+    
+    #prints the number of employees and the number of employees in each department
     print()
     print("There are ", len(fName), " employees.")
     print()
