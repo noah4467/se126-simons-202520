@@ -30,7 +30,7 @@ rooms_over = 0
 print(f"{'NAME':20}    {'MAX':5}   {'PPL':5}   {'OVER'}") #FIELD HEADERS FOR DISPLAY
 print("----------------------------------------------------")
 #connect to file
-with open("Text File/classLab2.csv") as csvfile:
+with open("Text_File/classLab2.csv") as csvfile:
     #indent one level while connected to the file
 
     file = csv.reader(csvfile)

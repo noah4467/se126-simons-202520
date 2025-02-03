@@ -18,7 +18,7 @@ import csv
 print(f"{'TYPE':10}    {'BRAND':10}   {'CPU':5} {'RAM':3} {'FIRST DISK':10}  {'NO HDD':5}   {'2ND DISK':10}   {'OS':4}  {'YR'}")
 
 #Main Process
-with open("Text File/filehandling.csv") as csvfile:
+with open("Text_File/filehandling.csv") as csvfile:
     file = csv.reader(csvfile)
     #repeats the process as many times as there are records in the file
     for record in file:

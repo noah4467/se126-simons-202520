@@ -29,7 +29,7 @@ test1 = []
 test2 = []
 test3 = []
 
-with open("Text File/class_grades.csv") as csvfile:
+with open("Text_File/class_grades.csv") as csvfile:
     file = csv.reader(csvfile)
 
     for rec in file:

@@ -19,7 +19,7 @@ numEligableNot = 0
 numVoted = 0
 totalEntries = 0
 
-with open("Text File/voters_202040.csv") as csvfile:
+with open("Text_File/voters_202040.csv") as csvfile:
 
     file = csv.reader(csvfile)
 
