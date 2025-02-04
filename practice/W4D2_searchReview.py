@@ -13,7 +13,7 @@ count = []
 color1 = []
 color2 = []
 
-with open("Text File/dragons.csv") as csvfile:
+with open("Text_File/dragons.csv") as csvfile:
     file = csv.reader(csvfile)
 
     for rec in file:

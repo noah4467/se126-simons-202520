@@ -95,7 +95,7 @@ with open("Text_File/got_emails.csv") as csvfile:
         print(f"{fName[i]:8}   {lName[i]:10}  {email[i]:30}  {dept[i]:23}   {ext[i]:3}")
 
     #prints the data to westeros.csv file and closes the file.
-    file = open("Text_File/westeros.csv", "w")
+    file = open("Text_File/westeros1.csv", "w")
 
     for i in range(0, len(fName)):
         file.write(f"{fName[i]}{','}{lName[i]}{','}{email[i]}{','}{dept[i]}{','}{ext[i]}\n")
