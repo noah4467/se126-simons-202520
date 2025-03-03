@@ -42,9 +42,16 @@ for key in library:
         found = key
 
 if found != 0:
-    print(f"\nKEY:{found:6}\tTITLE:{library[found]}")
+    print(f"We found your search for {search}, here is the info: ")
+    print("-" * 50)
+    '''
+    for i in range(0, len(found)):
+        print(f"{found[i].upper():4} : {library[found[i]]}")
+    '''
+    print(f"{found.upper():4} : {library[found]}")
+    print("-" * 50)
 else:
-    print(f"No results for {search}")
+    print(f"We could not find your search for {search} :[ ")
 
 #BINARY SEARCH FOR LIBRARY NUMBER DICTIONARY KEYS
 #in order to binary search a set of keys you mut first
