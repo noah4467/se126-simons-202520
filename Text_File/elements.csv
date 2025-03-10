@@ -1,0 +1,118 @@
+1,Hydrogen,H,Reactive nonmetal,1.0078
+2,Helium,He,Noble gas,4.0026
+3,Lithium,Li,Alkali metal,6.9410
+4,Beryllium,Be,Alkaline earth metal,9.0122
+5,Boron,B,Metalloid,10.811
+6,Carbon,C,Reactive nonmetal,12.011
+7,Nitrogen,N,Reactive nonmetal,14.007
+8,Oxygen,O,Reactive nonmetal,15.999
+9,Fluorine,F,Reactive nonmetal,18.998
+10,Neon,Ne,Noble gas,20.180
+11,Sodium,Na,Alkali metal,22.990
+12,Magnesium,Mg,Alkaline earth metal,24.305
+13,Aluminum,Al,Post-transition metal,26.982
+14,Silicon,Si,Metalloid,28.086
+15,Phosphorus,P,Reactive nonmetal,30.974
+16,Sulfur,S,Reactive nonmetal,32.065
+17,Chlorine,Cl,Reactive nonmetal,35.453
+18,Argon,Ar,Noble gas,39.948
+19,Potassium,K,Alkali metal,39.098
+20,Calcium,Ca,Alkaline earth metal,40.078
+21,Scandium,Sc,Transition metal,44.956
+22,Titanium,Ti,Transition metal,47.867
+23,Vanadium,V,Transition metal, 50.942
+24,Chromium,Cr,Transition metal,51.996
+25,Manganese,Mn,Transition metal,54.938
+26,Iron,Fe,Transition metal,55.845
+27,Cobalt,Co,Transition metal,58.933
+28,Nickel,Ni,Transition metal,58.693
+29,Copper,Cu,Transition metal,63.546
+30,Zinc,Zn,Transition metal,65.380
+31,Gallium,Ga,Pos-transition metal,69.723
+32,Germanium,Ge,Metalloid,72.640
+33,Arsenic,As,Metalloid,74.922
+34,Selenium,Se,Reactive nonmetal,78.960
+35,Bromine,Br,Reactive nonmetal,79.904
+36,Krypton,Kr,Noble gas,83.798
+37,Rubidium,Rb,Alkali metal,85.468
+38,Strontium,Sr,Alkaline earth metal,87.620
+39,Yttrium,Y,Transition metal,88.906
+40,Zirconium,Zr,Transition metal,91.224
+41,Niobium,Nb,Transition metal,92.906
+42,Molybdenum,Mo,Transition metal,95.950
+43,Technetium,Tc,Transition metal,98
+44,Ruthenium,Ru,Transition metal,101.07
+45,Rhodium,Rh,Transition metal,102.91
+46,Palladium,Pd,Transition metal,106.42
+47,Silver,Ag,Transition metal,107.87
+48,Cadnium,Cd,Transition metal,112.41
+49,Indium,In,Post-transition metal,114.82
+50,Tin,Sn,Post-transition metal,118.71
+51,Antimony,Sb,Metalloid,121.76
+52,Tellerium,Te,Metalloid,127.60
+53,Iodine,I,Reactive nonmetal,126.90
+54,Xenon,Xe,Noble gas,131.29
+55,Caesium,Cs,Alkali metal,132.91
+56,Barium,Ba,Alkaline earth metal,137.33
+57,Lanthanum,La,Lanthanide,138.91
+58,Cerium,Ce,Lanthanide,140.12
+59,Praseodymium,Pr,Lanthanide,140.91
+60,Neodymium,Nd,Lanthanide,144.24
+61,Promethium,Pm,Lanthanide,145
+62,Samarium,Sm,Lanthanide,150.36
+63,Europium,Eu,Lanthanide,151.96
+64,Gadolinium,Gd,Lanthanide,157.25
+65,Terbium,Tb,Lanthanide,158.93
+66,Dysprosium,Dy,Lanthanide,162.5
+67,Holmium,Ho,Lanthanide,164.93
+68,Erbium,Er,Lanthanide,167.26
+69,Thulium,Tm,Lanthanide,168.93
+70,Ytterbium,Yb,Lanthanide,173.04
+71,Lutetium,Lu,Lanthanide,174.97
+72,Hafnium,Hf,Transition metal,178.49
+73,Tantalum,Ta,Transition metal,180.95
+74,Tungsten,W,Transition metal,183.84
+75,Rhenium,Re,Transition metal,186.21
+76,Osmium,Os,Transition metal,190.23
+77,Iridium,Ir,Transition metal,192.22
+78,Platinum,Pt,Transition metal,195.08
+79,Gold,Au,Transition metal,196.97
+80,Mercury,Hg,Transition metal,200.59
+81,Thallium,Tl,Post-transition metal,204.38
+82,Lead,Pb,Post-transition metal,207.20
+83,Bismuth,Bi,Post-transition metal,208.98
+84,Polonium,Po,Post-transition metal,209
+85,Astatine,At,Post-transition metal,210
+86,Radon,Rn,Noble gas,222
+87,Francium,Fr,Alkali metal,223
+88,Radium,Ra,Alkaline earth metal,226
+89,Actinium,Ac,Actinide,227
+90,Thorium,Th,Actinide,232.04
+91,Protactinium,Pa,Actinide,231.04
+92,Uranium,U,Actinide,238.03
+93,Neptunium,Np,Actinide,237.05
+94,Plutonium,Pu,Actinide,244
+95,Americium,Am,Actinide,243
+96,Curium,Cm,Actinide,247
+97,Berkelium,Bk,Actinide,247
+98,Californium,Cf,Actinide,251
+99,Einsteinium,Es,Actinide,252
+100,Fermium,Fm,Actinide,257
+101,Mendelevium,Md,Actinide,258
+102,Nobelium,No,Actinide,259
+103,Lawrencium,Lr,Actinide,262
+104,Rutherfordium,Rf,Transition metal,267
+105,Dubnium,Db,Transition metal,262
+106,Seaborgium,Sg,Transition metal,269
+107,Bohrium,Bh,Transition metal,264
+108,Hassium,Hs,Transition metal,269
+109,Meitnerium,Mt,Unknown,278
+110,Darmstadtium,Ds,Unknown,281
+111,Roentgenium,Rg,Unknown,282
+112,Copernicium,Cn,Unknwon,285
+113,Nihonium,Nh,Unknown,286
+114,Flerovium,Fl,Unknown,289
+115,Moscovium,Mc,Unknown,289
+116,Livermorium,Lv,Unknown,293
+117,Tennessine,Ts,Unknwon,294
+118,Oganesson,Og,Unknown,294
