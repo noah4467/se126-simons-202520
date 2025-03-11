@@ -50,7 +50,7 @@ def searchName():
     if found != -1:
         print(f"Displaying results for {nameSearch}.")
         print()
-        print(f"{'ATOMIC NUM':10} {'ELEMENT':17} {'ABBR.':6} {'CATEGORY':23} {'MASS'}")
+        print(f"{'ATOMIC #':10} {'ELEMENT':17} {'ABBR.':6} {'CATEGORY':23} {'MASS'}")
         print(f"{atomicNum[found]:10} {name[found]:17} {abbrev[found]:6} {category[found]:23} {mass[found]}")
     else:
         print(f"No results for {nameSearch}.")
@@ -67,7 +67,7 @@ def searchAbbr():
     if found != -1:
         print(f"Displaying results for {abbrSearch}.")
         print()
-        print(f"{'ATOMIC NUM':10} {'ELEMENT':17} {'ABBR.':6} {'CATEGORY':23} {'MASS'}")
+        print(f"{'ATOMIC #':10} {'ELEMENT':17} {'ABBR.':6} {'CATEGORY':23} {'MASS'}")
         print(f"{atomicNum[found]:10} {name[found]:17} {abbrev[found]:6} {category[found]:23} {mass[found]}")
     else:
         print(f"No results for {abbrSearch}.")
@@ -77,17 +77,19 @@ def searchCat():
 
     found = []
 
-    catSearch = input("Enter a category to search for: ")
+    catSearch = input("Enter a category or category keyword to search for: ")
     for i in range(0, len(category)):
-        if catSearch.lower() == category[i].lower():
+        if catSearch.lower() in category[i].lower():
             found.append(i)
         
     if not found:
         print(f"No results for {catSearch}")
     else:
         print(f"Displaying results for {catSearch}")
+        print()
+        print(f"{'ATOMIC #':10} {'ELEMENT':17} {'ABBR.':6} {'CATEGORY':23} {'MASS'}")
         for i in range(0, len(found)):
-            print(f"{found[i]:3}: {atomicNum[found[i]]:10} {name[found[i]]:17} {abbrev[found[i]]:6} {category[found[i]]:23} {mass[found[i]]}")
+            print(f"{atomicNum[found[i]]:10} {name[found[i]]:17} {abbrev[found[i]]:6} {category[found[i]]:23} {mass[found[i]]}")
 
 
 #prompts the user for a search type and executes each search type
